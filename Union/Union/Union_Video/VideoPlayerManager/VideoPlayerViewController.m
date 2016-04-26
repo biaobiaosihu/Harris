@@ -107,49 +107,7 @@
    
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     
-    [_moviePlayer release];
     
-    [_videoArray release];
-    
-    [_topView release];
-    
-    [_topTitleLabel release];
-    
-    [_topDefinitionButton release];
-    
-    [_topDefinitionListView release];
-    
-    [_topBackButton release];
-    
-    [_bottomView release];
-    
-    [_slider release];
-    
-    [_playButton release];
-    
-    [_progressView release];
-    
-    [_playTimeLabel release];
-    
-    [_videoTitle release];
-    
-    [_videoDurationLabel release];
-    
-    [_volumeView release];
-    
-    [_volumeSlider release];
-    
-    [_systemvolumeViewSlider release];
-    
-    [_volumeImageView release];
-    
-    [_promptTimeLabel release];
-    
-    [_promptValueLabel release];
-    
-    [_promptView release];
-    
-    [_loadingView release];
     
     [super dealloc];
     

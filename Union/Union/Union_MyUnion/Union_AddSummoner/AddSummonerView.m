@@ -58,25 +58,7 @@
 
 -(void)dealloc{
     
-    [_titleLabel release];
-    
-    [_downImageView release];
-    
-    [_summonerTF release];
-    
-    [_serverTF release];
-    
-    [_serverTFImageView release];
-    
-    [_sniPickerView release];
-    
-    [_confirmButton release];
-    
-    [_summonerView release];
-    
-    [_loadingView release];
-    
-    [_manager release];
+   
     
     [super dealloc];
     

@@ -25,13 +25,7 @@
 
 -(void)dealloc{
     
-    [_picImageView release];
-    
-    [_titleLabel release];
-    
-    [_versionLabel release];
-    
-    [_copyrightLabel release];
+   
     
     [super dealloc];
     
